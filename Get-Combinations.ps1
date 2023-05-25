@@ -2,8 +2,8 @@
 <# This script was made to display a list of different combinations you can have between a total value
 Ex: You have 10 total items and can only combine two at a time, what is the total number of combinations you can have.
 
-$Totalnumbers would be 10
-$Combination numbers would be 2.
+$TotalNumbers would be 10
+$CombinationNumbers would be 2.
 #>
   param(
   [Parameter(mandatory=$true)][int]$TotalNumbers,
